@@ -1,17 +1,18 @@
-class class 
-   Attr_accessor 
+class Cat 
+ 
+    attr_accessor cat, name, meow 
     def name
-        @name
-    end
-    def name = name
-        @name =name
-end
+    @name= named
+    
+   def name=name
+   @name=named
 
-def name = (name)
-    @ name = name
-end 
+    def name=(maru)
+    @name=name
+ 
 
-felix = cat. new
-felix.name ="Felix"
-puts felix . name
-felix . meow
+    maru=cat.new
+    maru.name="maru"
+    puts maru.name
+    maru.meow
+
